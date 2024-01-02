@@ -1,0 +1,14 @@
+.about{
+  width:100%;
+  height: 100%;
+}
+
+.about p{
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.about h1{
+  border-bottom: 1px solid #11009e;
+  padding: 5px;
+}
