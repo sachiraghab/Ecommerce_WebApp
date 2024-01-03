@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 dotenv.config();
 connectDB();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 1500;
 
 app.use('/api/v1/user', userRoutes);
 app.use('/api/v1/task', taskRoutes);
